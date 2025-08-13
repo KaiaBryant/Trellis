@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper-header-wrap {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px rgb(127, 125, 125);
+    align-items: center;
+    background-color: #8b9c8c;
+}
+
+.uhead__title {
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 20px 0;
+    font-family: "Allan", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.uhead__title a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.uhead__left,
+.uhead__right {
+    color: #f5f7f5;
+    padding: 0 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    background-color: rgb(240, 248, 240);
+}
+
+.navbar a {
+    color: #1d6f07;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar:hover {
+    cursor: pointer;
+}
+
+/* Body */
+.video-background {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-background .video-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.video__shopbtn {
+    display: inline-block;
+    background-color: rgb(210, 209, 212);
+    color: #0d3310;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.video__shopbtn:hover {
+    cursor: pointer;
+    background-color: rgb(104, 140, 100);
+}
+
+.video-content {
+    line-height: 1.4;
+}
+
+
+/* Short Cuts */
+.shop-shortcuts-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 10px;
+    background-color: #ecedec;
+
+}
+
+.shop-shortcuts-container a {
+    padding: 40px 60px;
+    border-radius: 70px;
+    background-color: #8b9c8c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.shop-shortcuts-container a:hover {
+    background-color: #1e7231;
+    transform: scale(1.05);
+}
+
+
+
+/* Table and Photo */
+.chart-photo-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    background-color: #05530ab1;
+}
+
+
+/* Table */
+.scroll-chart-container {
+    flex: 0 0 60%;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.scroll-chart-container h3 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: #0d3310;
+}
+
+.scroll-chart-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid rgb(17, 88, 31) 4px;
+}
+
+.scroll-chart-container th,
+.scroll-chart-container td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.scroll-chart-container thead th {
+    background-color: #e0f7e9;
+    top: 0;
+}
+
+/* Secondary Image */
+.plantguide-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-image: url('images/bellpepper.jpg');
+}
+
+.plantguide-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: #612d2d;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.plantguide-container a:hover {
+    background-color: #a04d4d;
+    transform: scale(1.05);
+}
+
+/* Footer */
+
+.footer-inner-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #e1e4de;
+    padding: 30px;
+    width: 100%;
+}
+
+.footer-column {
+    flex: 1 1 1;
+    margin: 20px;
+}
+
+
+.footer-form input[type="email"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    max-width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-form button:hover {
+    background-color: #218838;
+}
+
+/* Logo */
+.footer-logo {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0d3310;
+    font-family: "Allan", serif;
+    font-weight: 700;
+    font-style: normal;
+
+    /* Contact Info */
+    .footer-column h5 {
+        color: #0d3310;
+        font-size: 1.2rem;
+    }
+
+    .footer-column p {
+        color: #452e2e;
+        text-decoration: none;
+        line-height: 1.6;
+    }
+
+    .footer-column a:hover {
+        text-decoration: none;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        left: -9999px;
+    }
+
+
+
+    /* Mobile */
+    @media screen and (max-width: 390px) {
+
+        .scroll-chart-container {
+            flex: 0 0 60%;
+            max-height: 400px;
+            overflow-y: auto;
+            background-color: #efefef;
+            border-radius: 9px;
+            width: fit-content;
+        }
+
+        .scroll-chart-container h3 {
+            text-align: center;
+            font-size: 2rem;
+            color: #0d3310;
+        }
+
+        .scroll-chart-container table {
+            width: 100%;
+            border-collapse: collapse;
+            border: none;
+        }
+
+        .scroll-chart-container th,
+        .scroll-chart-container td {
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .scroll-chart-container thead th {
+            background-color: #e0f7e9;
+            top: 0;
+        }
+
+        .footer-inner-container {
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+
+    /* Tablet */
+    @media screen and (min-width: 391px) and (max-width: 1020px) {
+        .footer-inner-container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: #e1e4de;
+            padding: 30px;
+            width: 100%;
+        }
+
+        .footer-column {
+            flex: 1 1 1;
+            margin: 20px;
+        }
+
+
+        .shop-shortcuts-container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 25px;
+            gap: 10px;
+            background-color: #ecedec;
+        }
+
+    }

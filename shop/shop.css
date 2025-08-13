@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper-header-wrap {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px rgb(127, 125, 125);
+    align-items: center;
+    background-color: #8b9c8c;
+}
+
+.uhead__title {
+    font-size: 3rem;
+    padding: 10px 0;
+    font-family: "Allan", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.uhead__title a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.uhead__left,
+.uhead__right {
+    color: #f5f7f5;
+    padding: 0 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    background-color: rgb(240, 248, 240);
+}
+
+.navbar a {
+    color: #1d6f07;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar:hover {
+    cursor: pointer;
+}
+
+/* body */
+
+/* Container for all products */
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Individual products*/
+.product {
+    background-color: #ebe8e8;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.product:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Product image */
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.03);
+}
+
+/* Name */
+.product h4 {
+    font-size: 1rem;
+    margin: 10px 0 5px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Price */
+.product p.price {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* Description */
+.product p.description {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Footer */
+
+.footer-inner-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #e1e4de;
+    padding: 30px;
+
+}
+
+.footer-column {
+    flex: 1 1 1;
+    margin: 20px;
+}
+
+
+.footer-form input[type="email"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    max-width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-form button:hover {
+    background-color: #218838;
+}
+
+/* Logo */
+.footer-logo {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0d3310;
+    font-family: "Allan", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Contact Info */
+.footer-column h5 {
+    color: #0d3310;
+    font-size: 1.2rem;
+}
+
+.footer-column p {
+    color: #452e2e;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+.footer-column a:hover {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+@media (max-width: 390px) {
+    #product-list {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .product-image {
+        height: 180px;
+    }
+
+    .product h4 {
+        font-size: 1rem;
+    }
+
+    .product p.price {
+        font-size: 0.95rem;
+    }
+
+    .product p.description {
+        font-size: 0.85rem;
+    }
+
+    .footer-inner-container {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 1020px) {
+    #product-list {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+        gap: 25px;
+    }
+
+    .product-image {
+        height: 190px;
+    }
+
+    .product h4 {
+        font-size: 1.05rem;
+    }
+
+    .product p.price {
+        font-size: 1rem;
+    }
+
+    .product p.description {
+        font-size: 0.9rem;
+    }
+
+    .footer-inner-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #e1e4de;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .footer-column {
+        flex: 1 1 1;
+        margin: 20px;
+    }
+}

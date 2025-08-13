@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+AU+QLD:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Upperhead banner -->
+    <div class="upper-header-wrap">
+        <div class="uhead__left">
+            <p>Grow. Play. Every Day!</p>
+        </div>
+        <div class="uhead__title">
+            <a href="/index.html">TRELLIS</a>
+        </div>
+        <div class="uhead__right">
+            <p>One stop shop to garden.</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="recipe/recipe.html">Recipes</a>
+            <a href="../shop/shop.html">Shop All</a>
+            <a href="../contact/contact.html">Contact</a>
+            <a href="plant-guide/guide.html">How To grow</a>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <div class="contact-main">
+        <div class="contact__img">
+            <img src="../images/contact-page-img.jpg" alt="potting accessories">
+        </div>
+        <div class="contact__text">
+            <h2>LET'S GROW TOGETHER!</h2>
+            <p>We want to share our love for growing. Sign up below for a free starter kit that includes a pack of seeds
+                of yout choice, a starter pot, and sample soil.
+            </p>
+        </div>
+    </div>
+
+    <!-- <div class="contact-signup">
+        <h2>Sign Up For A Free Starter Kit!</h2>
+    </div> -->
+
+    <!-- I want this form to have Name, E-maiil, Address, datalist to choose which type of seed and comments -->
+    <section class="contact-form">
+        <form method="post">
+            <!-- First + Last Name Row -->
+            <div class="form-row">
+                <div>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+            </div>
+
+            <!-- Email + Phone Row -->
+            <div class="form-row">
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="000-000-0000">
+                </div>
+            </div>
+
+            <!-- Seed Option -->
+            <div>
+                <label for="seeds">Choose your seed:</label>
+                <input list="seed-options" id="seeds" name="seed-options" required>
+                <datalist id="seed-options">
+                    <option value="Bell Pepper">
+                    <option value="Herb Trio">
+                    <option value="Strawberries">
+                    <option value="Peas">
+                    <option value="Carrots">
+                    <option value="Cherry Tomatoes">
+                    <option value="Jalapeños">
+                    <option value="Zucchini">
+                </datalist>
+            </div>
+
+            <!-- Comments -->
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="5" placeholder="Type your message here..."></textarea>
+            </div>
+
+            <!-- Submit -->
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="full-footer-container">
+        <div class="footer-inner-container">
+
+            <!-- Newsletter Signup -->
+            <div class="footer-signup">
+                <h5>Sign up for Email</h5>
+                <p>Join our community for future updates.</p>
+                <form method="post" action="#" class="footer-form" aria-label="Email Sign-up Form">
+                    <label for="email-signup" class="visually-hidden">Email address</label>
+                    <input type="email" id="email-signup" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <!--  Logo -->
+            <div class="footer-column">
+                <a href="index.html" class="footer-logo">TRELLIS</a>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-column">
+                <h5>Contact Us</h5>
+                <p>Email: Hello@Trellis.com</p>
+                <p>Phone: (202) 000-0000</p>
+            </div>
+
+        </div>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Slow Bolt Cilantro Seeds",
+        "price": 4.99,
+        "description": "Slow Bolt is the perfect beginner-friendly cilantro. One of the most popular herbs, cilantro is considered essential to the cuisines of many cultures.",
+        "image": {
+            "default": "../images/cilantro(front).png",
+            "hover": "../images/cilantro(hover).webp"
+        }
+    },
+    {
+        "name": "Italian Roma Bush Tomato Seeds",
+        "price": 3.69,
+        "description": "An absolutely excellent heirloom tomato. Firm, meaty, 3 inch oblong fruits with few seeds, on compact vines that are very productive. ",
+        "image": {
+            "default": "../images/tomato(front).jpg",
+            "hover": "../images/tomato(hover).jpg"
+        }
+    },
+    {
+        "name": "Soundwave Jalapeno Chile Pepper Seeds",
+        "price": 4.99,
+        "description": "This pepper is an extra-large jalapeno variety with dark green, thick walled fruit. This high-yielding variety also carries some heat, making it great to make sauces or sautee with.",
+        "image": {
+            "default": "../images/jalepno(front).webp",
+            "hover": "../images/jalepeno(hover).webp"
+        }
+    },
+    {
+        "name": "Vivian Romaine Lettuce Seeds",
+        "price": 4.49,
+        "description": "This emerald green lettuce will be a gem in your garden. 'Vivian' has crisp leaves wrapped in tight heads, making its large leaves the perfect choice for impressive salads or tender lettuce wraps.",
+        "image": {
+            "default": "../images/lettuce(front).jpg",
+            "hover": "../images/lettuce(hover).webp"
+        }
+    },
+    {
+        "name": "Potting Soil",
+        "price": 19.49,
+        "description": "This organic Seed Stating soil mix is a rich blend of sphagnum peat moss & perlite with yucca extract and lime to ensure correct pH.",
+        "image": {
+            "default": "../images/soil(front).webp",
+            "hover": "../images/soil(hover).webp"
+        }
+    },
+    {
+        "name": "Small Modular Metal Garden Bed",
+        "price": 112,
+        "description": "Level up your garden setup with this beautiful hard-working beds. They're made from ultra-durable aluzinc steel for better drainage, healthier soil, longer growing seasons, and bountiful harvests.",
+        "image": {
+            "default": "../images/small-planter(front).webp",
+            "hover": "../images/small-planter(hover).webp"
+        }
+    },
+    {
+        "name": "Round Metal Garden Bed",
+        "price": 115,
+        "description": "Level up your garden setup with these beautiful, round hard-working beds. Made from ultra-durable aluzinc steel and raised for better drainage, healthier soil and fruitful harvests.",
+        "image": {
+            "default": "../images/round-planter(front).webp",
+            "hover": "../images/small-planter(hover).webp"
+        }
+    },
+    {
+        "name": "Small Tall Metal Garden Bed",
+        "price": 120,
+        "description": "This small yet tall raised garden bed is ultra-durable and perfect for urban and suburban gardeners, especially those that have a small or narrow yard. ",
+        "image": {
+            "default": "../images/small-tall-planter(front).webp",
+            "hover": "../images/small-tall-planter(hover).webp"
+        }
+    },
+    {
+        "name": "6-Cell Seed Starting Tray",
+        "price": 4,
+        "description": "The Epic 6-Cell Seed Starting Tray is built tough with just the right amount of flexibility. It's designed by real gardeners and made in the USA from high-strength recycled plastic that's UV-treated and BPA-free.",
+        "image": {
+            "default": "../images/plant-tray(front).webp",
+            "hover": "../images/plant-tray(hover).webp"
+        }
+    },
+    {
+        "name": "Hand Trowel",
+        "price": 16,
+        "description": "Made of stainless steel for durability and long life, this sturdy trowel is essential for digging, furrowing, and all general garden work.",
+        "image": {
+            "default": "../images/hand-trowel(front).webp",
+            "hover": "../images/hand-trowl(hover).webp"
+        }
+    },
+    {
+        "name": "Garden Leather Gloves",
+        "price": 16,
+        "description": "These working gloves allow for dexterity, flexibility, and breathability ensuring you can work with ease",
+        "image": {
+            "default": "../images/gloves(front).jpg",
+            "hover": "../images/gloves(hover).jpg"
+        }
+    },
+    {
+        "name": "Glass Garden Stake",
+        "price": 6,
+        "description": "Perfect for your small indoor and outdoor plant pots, these watering stakes are a must-have option for an automatic watering system, slowly releasing needed water into the soil.",
+        "image": {
+            "default": "../images/globes(front).avif",
+            "hover": "../images/globes(hover).webp"
+        }
+    }
+]
