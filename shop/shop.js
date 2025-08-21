@@ -31,7 +31,6 @@ fetch('products.json')
             description.textContent = product.description;
             description.className = 'description';
             productDiv.appendChild(description);
-
             productDiv.appendChild(img);
             productDiv.appendChild(name);
             productDiv.appendChild(price);
